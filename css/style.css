@@ -1,0 +1,46 @@
+.title{
+  text-align: center;
+  font-size: 60px;
+  color:  #f3beab;
+}
+.menu{
+  grid-template-columns: repeat(3,1fr);
+  display: grid;
+  grid-gap: 5px;
+}
+a{
+  text-decoration: none;
+}
+li{
+	padding: 10px;
+	list-style: none;
+	text-align: center;
+	color: black;
+	font-size: 19px;
+	background: #fdedec;
+	border: #fbccb9 solid 2px;
+	border-radius: 20px;
+	transition: all 0.2s ease-out;
+}
+li:hover{
+	background: #fbccb9;
+	color: black;
+	border: 2px #fdedec solid;
+	transition: all 0.2s ease-out;
+}
+.showcase{
+	height: 350px;
+	background-image: url(../images/showcase.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+h1{
+	text-align: center;
+	 color:  #f3beab;
+}
+.wallpaper{
+  height: 300px;
+  background-image: url(../images/wallpaper.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
