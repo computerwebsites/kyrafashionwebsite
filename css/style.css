@@ -40,7 +40,7 @@ h1{
 }
 .wallpaper{
   height: 300px;
-  background-image: url(../images/wallpaper.png);
+  background-image: url(../images/wallpaper.PNG);
   background-position: center;
   background-repeat: no-repeat;
 }
